@@ -1,0 +1,85 @@
+
+header img{
+height: 110px;
+width: 110px;
+}
+header{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+nav ul li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 0px 10px;
+}
+nav ul li:hover{
+    background-color: grey;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+nav ul li ul li{
+    padding: 5px 5px;
+}
+li{
+    cursor:wait;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+}
+.elemento{
+    height: 200px;
+    margin: 10px;
+}
+#semana-prova{
+    color: white;
+    background-color: darkred;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding: 10px;
+}
+#websai{
+    color: white;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    padding: 10px;
+}
+#passe-escolar{
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 10px;
+}
+#atz-noticia{
+    color: white;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding: 10px;
+}
